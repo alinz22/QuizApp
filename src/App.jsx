@@ -6,7 +6,6 @@ function App() {
     <>
       <Header />
       <main>
-        {" "}
         <Quiz />
       </main>
     </>
