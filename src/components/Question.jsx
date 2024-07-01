@@ -15,10 +15,10 @@ export default function Question({
     isCorrect: null,
   });
 
-  let timer = 100;
+  let timer = 10000;
 
   if (answer.selectedAnswer) {
-    timer = 10000;
+    timer = 1000;
   }
 
   if (answer.isCorrect !== null) {
